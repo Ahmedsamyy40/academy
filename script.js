@@ -230,9 +230,9 @@ document.querySelectorAll('a').forEach(link => {
     if (window.scrollY > footerTop) {
       logo.src = 'ASSETS/RSCA_Crest_white.png'; // العودة إلى اللوجو الأول عند الوصول إلى الفوتر
     } else if (window.scrollY > heroBottom) {
-      logo.src = 'ASSETS/RSCA_Crest_white2.png'; // تغيير إلى اللوجو الثاني بعد انتهاء قسم الهيرو
+      logo.src = 'RSCA_Crest_white2.png'; // تغيير إلى اللوجو الثاني بعد انتهاء قسم الهيرو
     } else {
-      logo.src = 'ASSETS/RSCA_Crest_white.png'; // العودة إلى اللوجو الأول
+      logo.src = 'RSCA_Crest_white.png'; // العودة إلى اللوجو الأول
     }
   };
 
